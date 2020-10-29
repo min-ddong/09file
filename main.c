@@ -13,6 +13,6 @@ int main(int argc, char *argv[]) {
 	grade[3] = 40;
 	grade[4] = 50;
 	for(i=0;i<5;i++)
-	
+	 printf("student %i's grade : %i\n", i, grade[i]);	
 	return 0;
 }
